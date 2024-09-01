@@ -1,0 +1,116 @@
+/* Resetando alguns padrões de estilo */
+body, h1, p, ul, li, form, label {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f8; /* Cor de fundo clara e suave */
+    color: #333; /* Cor do texto padrão */
+}
+
+header {
+    background-color: #004d99; /* Azul escuro */
+    color: #fff; /* Texto branco */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #ffcc00; /* Amarelo ouro ao passar o mouse */
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #004d99; /* Azul escuro */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #004d99; /* Azul escuro */
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd; /* Cor de borda leve */
+    border-radius: 5px;
+    background-color: #fff; /* Fundo branco para campos de entrada */
+}
+
+button {
+    padding: 10px;
+    background-color: #004d99; /* Azul escuro */
+    color: #fff; /* Texto branco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #003366; /* Azul mais escuro ao passar o mouse */
+}
+
+/* Estilo para os links do portfólio */
+.portfolio-links {
+    display: flex;
+    gap: 20px; /* Espaçamento entre os links */
+    justify-content: center; /* Centralizar os links na página */
+    margin-top: 20px;
+}
+
+.portfolio-links a {
+    padding: 10px 20px;
+    background-color: #ffcc00; /* Amarelo ouro */
+    color: #004d99; /* Azul escuro */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+}
+
+.portfolio-links a:hover {
+    background-color: #ffeb99; /* Amarelo claro ao passar o mouse */
+    color: #003366; /* Azul mais escuro ao passar o mouse */
+}
+/* Estilo para a imagem do perfil */
+.foto-perfil {
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 50%; /* Faz a imagem ser circular, se desejar */
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem horizontalmente */
+}
